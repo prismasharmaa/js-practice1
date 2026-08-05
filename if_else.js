@@ -10,12 +10,17 @@ if (marks >= 90) {
   console.log("Fail");
 }
 
+//ternary operator
+let result = (marks >= 50) ? "Pass" : "Fail"; // assigns "Pass" if marks is greater than or equal to 50, otherwise assigns "Fail"
+console.log("Result:", result);
 
-let age = 20;
-let hasLicense = true;
 
-if (age >= 18 && hasLicense) {
-  console.log("You can drive");
+
+let number = prompt("Enter a number=");
+
+
+if(number % 5 === 0){
+  console.log(number , " is divisible by 5");
 } else {
-  console.log("You cannot drive");
+  console.log(number , " is not divisible by 5"); 
 }
