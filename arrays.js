@@ -68,14 +68,14 @@ console.log(fruits); //["kiwi", "strawberry", "banana", "orange"] //changes the 
 
 //practice problems
 
-let companys=["Bloomberg","Microsoft","Uber""Google","IBM","Netflix"];
+let companys=["Bloomberg","Microsoft","Uber","Google","IBM","Netflix"];
   console.log(companys.length); //6
 
   //remove the last company from the array
   companys.shift();
   console.log(companys); //["Microsoft", "Uber", "Google", "IBM", "Netflix"] //changes the original array
 
-  ''remove uber and addd ola in its place
+  //remove uber and addd ola in its place
   companys.splice(1,1,"Ola");
   console.log(companys); //["Microsoft", "Ola", "Google", "IBM", "Netflix"] //changes the original array
 
